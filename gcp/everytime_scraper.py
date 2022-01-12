@@ -4,8 +4,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from datetime import datetime
 
-id = 'rla9902v'
-pw = 'rla5764v'
+ID = 'YOURID'
+PW = 'YOURPW'
 
 keyword_list = ['실험', '피험자', '연구', '사례', '참가']
 title_list = []
@@ -64,11 +64,11 @@ if isUpdated:
         f.write(emoji.emojize(title)+'\n')
     f.close()
 
-    TOKEN = '5007272517:AAEgmGOY3oFEgZpVFs1rk0SAUO-N2R9J3GE'
-    JUNHYEONG_USER_ID = '5031210849'
-    TAELIM_USER_ID = '5083786420'
+    TOKEN = 'YOURTOKEN'
+    USER_ID = 'USERID'
+    
     bot = telegram.Bot(token=TOKEN)
-    bot.sendMessage(chat_id=TAELIM_USER_ID, text='태링아 새 글이 올라왔어! 에브리타임 들어가봐!')
+    bot.sendMessage(chat_id=USER_ID, text='새 글이 올라왔습니다!')
     
     now = datetime.now()
     print(f'{now.day}일 {now.hour}시 {now.minute}분')
