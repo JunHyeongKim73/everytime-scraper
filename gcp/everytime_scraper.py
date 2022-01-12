@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 import emoji
 import telegram
 from selenium import webdriver
