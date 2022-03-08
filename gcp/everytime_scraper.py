@@ -30,8 +30,8 @@ driver.implicitly_wait(1)
 url = 'https://everytime.kr/login'
 driver.get(url)
 
-driver.find_element(By.NAME, 'userid').send_keys(id)
-driver.find_element(By.NAME, 'password').send_keys(pw)
+driver.find_element(By.NAME, 'userid').send_keys(ID)
+driver.find_element(By.NAME, 'password').send_keys(PW)
 driver.find_element(By.XPATH, '//*[@id="container"]/form/p[3]/input').click()
 driver.implicitly_wait(5)
 
