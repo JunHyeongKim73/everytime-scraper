@@ -3,4 +3,11 @@
 
 1시간마다 스크래핑을 진행하며 새로운 글이 올라오지 않았으면 메세지를 보내지 않습니다. </br>
 
-Selenium의 chrome driver를 이용하여 구현하였습니다.
+Selenium의 chrome driver를 이용하여 구현하였습니다.</br>
+
+## Run
+```
+git clone https://github.com/JunHyeongKim73/everytime_scraper.git
+cd gcp
+sh execute.sh &
+```
