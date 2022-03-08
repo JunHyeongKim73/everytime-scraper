@@ -1,3 +1,5 @@
+#!/bin/bash
+
 while true :
 do
     python everytime_scraper.py
