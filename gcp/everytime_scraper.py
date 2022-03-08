@@ -65,7 +65,7 @@ if isUpdated:
     f.close()
 
     TOKEN = 'YOURTOKEN'
-    USER_ID = 'USERID'
+    USER_ID = 'TO_USER_ID'
     
     bot = telegram.Bot(token=TOKEN)
     bot.sendMessage(chat_id=USER_ID, text='새 글이 올라왔습니다!')
