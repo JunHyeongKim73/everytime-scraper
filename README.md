@@ -5,7 +5,7 @@
 
 Selenium의 chrome driver를 이용하여 구현하였습니다. </br>
 
-Linux에서 chromeless로 작동하며, background에서 실행되도록 하려면 아래 코드를 입력하면 됩니다. </br>
+Linux에서 headless로 작동하며, background에서 실행되도록 하려면 아래 코드를 입력하면 됩니다. </br>
 
 ## Run
 ```
